@@ -1,0 +1,26 @@
+:root {
+    --background-black: #040404;
+    --background-white: #ffcbd1;
+    --background-red: #812929;
+    --background-deep-red: #411515;
+
+    --font-primary: 'Roboto', 'sans-serif';
+    --font-secundary: 'Poppins', 'sans-serif';
+
+    --red-clr-1: rgb(255,0,0);
+    --red-clr-2: #f94449;
+    --red-clr-3: #f69697;
+    --secundary-color: rgb(207, 109, 91); 
+    --white-color: rgb(255, 255, 255);
+    --black-color: rgb(34, 34, 34);
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-black);
+    font-family: var(--font-primary);
+    scroll-behavior: smooth;
+}

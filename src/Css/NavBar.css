@@ -1,0 +1,61 @@
+@import url('../index.css');
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--background-red);
+    border-bottom: 3px solid var(--background-deep-red);
+    padding: 30px 10%;
+    height: 4vh;
+}
+
+img{
+    width: 5em;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+a {
+    color: #edf0f1;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    font-size: 1.2em;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+a:hover {
+    color: var(--background-deep-red);
+}
+
+.logo {
+    cursor: pointer;
+    width: 10em;
+}
+
+button {
+    color: #edf0f1;
+    border: none;
+    padding: 0.7em 1.5em;
+    font-size: 0.9em;
+    border-radius: 50px;
+    background-color: var(--background-black);
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    margin-left: 1.5em;
+}
+
+button:hover {
+    background-color: var(--background-deep-red);
+}
