@@ -1,61 +1,72 @@
 @import url('../index.css');
 
-
-
-nav {
+header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: var(--background-red);
-    border-bottom: 3px solid var(--background-deep-red);
-    padding: 30px 10%;
-    height: 4vh;
+    background: transparent;
+    padding: 10px 10px;
+    font-family: var(--font-primary);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    height: 1em;
+    top: 0;
 }
 
 img{
-    width: 5em;
+    width: 9em;
     margin-right: auto;
+    cursor: pointer;
+    color: black;
 }
 
 ul {
+    display: flex;
     list-style: none;
     padding: 0;
 }
 
 ul li {
     display: inline-block;
-    padding: 0 1.5em;
+    padding: 0 .5em;
 }
 
-a {
-    color: #edf0f1;
+
+
+header a {
     text-decoration: none;
-    transition: all 0.5s ease 0s;
-    font-size: 1.2em;
-    font-family: 'Poppins', 'sans-serif';
+    color: var(--red-clr-1);
+    border: none;
+    padding: 1.5em 2em;
+    cursor: pointer;
+    margin-left: 1.5em;
+    font-size: .1em; 
+    background:
+    linear-gradient(
+      to right,
+      rgb(200, 185, 100),
+      rgba(200, 185, 100, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgb(200, 107, 0),
+      rgb(190, 143, 12)
+  );
+  background-size: 100% 1px, 0 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
 a:hover {
-    color: var(--background-deep-red);
+    background-size: 0 1px, 100% 1px;
 }
 
-.logo {
-    cursor: pointer;
-    width: 10em;
-}
 
-button {
-    color: #edf0f1;
-    border: none;
-    padding: 0.7em 1.5em;
-    font-size: 0.9em;
-    border-radius: 50px;
-    background-color: var(--background-black);
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
-    margin-left: 1.5em;
-}
 
-button:hover {
-    background-color: var(--background-deep-red);
+@media screen and (max-width: 450px) {
+    img {
+        width: 6em;
+    }
 }

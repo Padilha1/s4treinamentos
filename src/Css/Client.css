@@ -1,0 +1,27 @@
+[class^="slide"],
+[class*=" slide"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    max-height: 100px;    
+    height: 34px;
+}
+
+.Clients img {
+    width: 60px;
+    margin-bottom: 1.5em;
+    margin-right: 0;
+}
+
+.Clients {
+    background: var(--background-deep-red);
+}
+
+.Clients h2 {
+    padding: 1em 0 0 1em;
+    text-align: center;
+    color: var(--white-color);
+    font-weight: 300;
+}
+

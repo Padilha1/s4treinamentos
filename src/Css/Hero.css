@@ -1,72 +1,71 @@
 [class^="number-slide"],
 [class*=" number-slide"] {
-  background: grey;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 1.2em;
   color: #fff;
   font-weight: 500;
-  height: 80vh;
+  height: 100vh;
   max-height: 100vh;
+  max-width: 100%;
+  z-index: -1;
 }
 
 
 .number-slide1 {
-    background: rgb(64, 175, 255);
-    background: linear-gradient(
-      128deg,
-      rgba(64, 175, 255, 1) 0%,
-      rgba(63, 97, 255, 1) 100%
-    );
+    background: url("../public/aditional/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg") no-repeat;
+    background-size: cover;
+  }
+
+
+  .number-slide2 {
+    background: url("../public/aditional/bg1.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .number-slide2 .logo {
+    width: 18em;
   }
   
-  .number-slide2 {
-    background: rgb(255, 75, 64);
-    background: linear-gradient(
-      128deg,
-      rgba(255, 154, 63, 1) 0%,
-      rgba(255, 75, 64, 1) 100%
-    );
-  }
   
   .number-slide3 {
-    background: rgb(182, 255, 64);
-    background: linear-gradient(
-      128deg,
-      rgba(182, 255, 64, 1) 0%,
-      rgba(63, 255, 71, 1) 100%
-    );
-    background: linear-gradient(
-      128deg,
-      rgba(189, 255, 83, 1) 0%,
-      rgba(43, 250, 82, 1) 100%
-    );
+    background: url("../public/aditional/bg2.jpg") no-repeat;
+    background-size: cover;
   }
   
   .number-slide4 {
-    background: rgb(64, 255, 242);
-    background: linear-gradient(
-      128deg,
-      rgba(64, 255, 242, 1) 0%,
-      rgba(63, 188, 255, 1) 100%
-    );
-  }
-  
-  .number-slide5 {
-    background: rgb(255, 64, 156);
-    background: linear-gradient(
-      128deg,
-      rgba(255, 64, 156, 1) 0%,
-      rgba(255, 63, 63, 1) 100%
-    );
-  }
-  
-  .number-slide6 {
-    background: rgb(64, 76, 255);
-    background: linear-gradient(
-      128deg,
-      rgba(64, 76, 255, 1) 0%,
-      rgba(174, 63, 255, 1) 100%
-    );
-  }
+    background: url("../public/aditional/bg3.jpg") no-repeat;
+    background-size: cover;
+}
+.bg-4 {
+  display: flex;
+  align-items: center;
+}
+.bg-4 img {
+  width: 40%;
+  margin-right: 10em;
+  margin-left: 10em;
+  opacity: 0.6;
+}
+
+
+.text-1 h2{
+  text-align: center;
+  font-weight: 300;
+  border-bottom: 1px solid var(--red-clr-1);
+}
+.text-1 h3 {
+  font-weight: 300;
+}
+
+.text-2 {
+  display: block;
+  line-height: 0;
+}
+.text-2 h2 {
+  margin-bottom: 1em;
+  text-align: right;
+  font-weight: 300;
+}
+

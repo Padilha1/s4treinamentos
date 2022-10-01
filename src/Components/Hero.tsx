@@ -20,7 +20,7 @@ export default function Hero() {
               if (mouseOver) return
               timeout = setTimeout(() => {
                 slider.next()
-              }, 2000)
+              }, 8000)
             }
             slider.on("created", () => {
               slider.container.addEventListener("mouseover", () => {
@@ -40,17 +40,35 @@ export default function Hero() {
         ]
       )
 
-
-
-
     return (
-        <div ref={sliderRef} className="keen-slider">
-            <div className="keen-slider__slide number-slide1">1</div>
-            <div className="keen-slider__slide number-slide2">2</div>
-            <div className="keen-slider__slide number-slide3">3</div>
-            <div className="keen-slider__slide number-slide4">4</div>
-            <div className="keen-slider__slide number-slide5">5</div>
-            <div className="keen-slider__slide number-slide6">6</div>
-        </div>
+        <section ref={sliderRef} className="keen-slider">
+            <div className="keen-slider__slide number-slide1">
+              <div className="text-1">
+                {/* mudar !!!!!!!!!!!!!!! colocar nome dos serviços */}
+                <h2><strong>S4 Cursos e Treinamentos</strong></h2>
+                <h3>Encontre a <strong>segurança</strong> que você precisa no seu negócio.</h3>
+              </div>
+            </div>
+            <div className="keen-slider__slide number-slide2">
+              <div className="bg-2">
+                <img src="../public/logos/S4_Marca3.png" className="logo"/>
+              </div>
+            </div>
+            <div className="keen-slider__slide number-slide3">
+              <div>
+                <span>Oferecemos Cursos, <br></br>Serviços e <br></br>Consultorias</span>
+              </div>
+            </div>
+            <div className="keen-slider__slide number-slide4">
+              <div className="bg-4">
+                <img src="../public/aditional/S4 EC.png"/>
+                <div className="text-2">
+                  <h2>Trabalhe com Confiança</h2>
+                  <h2><strong>Invista em Segurança!</strong></h2>
+                </div>
+              </div>
+            </div>
+
+        </section>
     )
 }

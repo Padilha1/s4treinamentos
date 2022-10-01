@@ -11,16 +11,18 @@
     --red-clr-2: #f94449;
     --red-clr-3: #f69697;
     --secundary-color: rgb(207, 109, 91); 
-    --white-color: rgb(255, 255, 255);
+    --white-color: #f5f7fa;
     --black-color: rgb(34, 34, 34);
 
 }
+
 
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--background-black);
     font-family: var(--font-primary);
-    scroll-behavior: smooth;
+    font-size: 0.3em;
+    background: linear-gradient(-45deg, #f5f7fa,#f6f0ea, #fee2f8,#b8c6db);
+    text-align: center;
 }

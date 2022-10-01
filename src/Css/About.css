@@ -1,0 +1,39 @@
+
+.Sobre {
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+    text-align: left;
+    padding: 2em 4em;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    background: linear-gradient(-45deg, #f5f7fa,#f6f0ea, #fee2f8,#b8c6db);
+    animation: gradient 15s ease infinite;
+}
+
+
+.container {
+    width: 50%;
+    scroll-behavior: smooth;
+    
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.container p{ 
+    margin-left: 2em;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}

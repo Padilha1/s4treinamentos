@@ -1,0 +1,50 @@
+.Cursos {
+    color: white;
+    background:var(--background-black);
+}
+.Cursos h2 {
+    padding: 1rem 0 .5rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 2rem;
+    padding-block: 1rem;
+}
+
+
+.card {
+    width: 15em;
+    height: 15.5em;
+    background: #333;
+    border-radius: 3px;
+    outline: 1px solid rgba(255,255,255, .5);
+    outline-offset: -4px; 
+    box-shadow: 3px 3px 10px rgba(0,0,0, .3);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+    transition: transform .75s;
+}
+
+.card:hover .card-image {
+    transform: scale(1.15);
+}
+
+.card-title{
+    position: absolute;
+    left: 1.2em;
+    bottom: 1em;
+    font-size: 1em;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+}

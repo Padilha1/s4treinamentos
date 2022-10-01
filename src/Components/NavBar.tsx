@@ -2,27 +2,27 @@ import '../Css/NavBar.css'
 
 export function NavBar() {
     return (
-        <nav>
+        <header>
 
-            <img className='logo' src='./public/logos/S4_Marca.png' alt='Logo da empresa S4 Treinamentos'></img>
+            <img className='logo' src='./logos/S4_Marca2.png' alt='Logo da empresa S4 Treinamentos'></img>
             
             
             <ul className="list">
                 <li className="li-item">
-                    <a href='#'> Sobre nós </a> 
+                    <a href='#Sobre'> Sobre nós </a> 
                 </li >
                 <li className="li-item">
-                    <a href='#'> Cursos </a> 
+                    <a href='#Cursos'> Cursos </a> 
                 </li >
                 <li className="li-item">
                     <a href='#'> Galeria </a> 
                 </li >
             </ul>
 
-            <a className='Contato'  href='#'>
-                <button> Contato </button>
+            <a className='Contato'  href='#Contato'>
+                Contato 
             </a> 
             
-        </nav>
+        </header>
     )
 }
