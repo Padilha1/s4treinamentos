@@ -6,8 +6,9 @@ import Hero from './Components/Hero'
 import { About } from './Components/About'
 import { Cursos } from './Components/Cursos'
 import { Galeria } from './Components/Galeria'
-import { Form } from './Components/Form'
+import { Contato } from './Components/Contato'
 import { Clients } from './Components/Clients'
+import { Footer } from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
       <Cursos/>
       {/* <Clients/> */}
       <Galeria/>
-      <Form/>
+      <Contato/>
+      <Footer/>
     </div>
   )
 }

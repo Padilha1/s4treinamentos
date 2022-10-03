@@ -1,0 +1,30 @@
+.footer {
+    height: 30px;
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.right {
+    margin-left: 2rem;
+}
+
+.left {
+    margin-right: 2rem;
+}
+
+
+@media screen and (max-width:390px) {
+    .footer {
+        font-size: .7rem;
+        height: 50px;
+    }
+    .right {
+        margin-left: .5rem;
+    }
+    
+    .left {
+        margin-right: .5rem;
+    }
+}

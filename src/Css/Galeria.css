@@ -1,0 +1,18 @@
+.Galeria {
+    height: 500px;
+    max-height: 600px;
+    background: var(--background-white);
+}
+
+.gal-title {
+    margin: 0; 
+    padding: 1rem;
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .gal-title {
+        font-size: 1.5em;
+    }
+}

@@ -14,13 +14,13 @@
 
 
 .number-slide1 {
-    background: url("../public/aditional/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg") no-repeat;
+    background: url("/aditional/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg") no-repeat;
     background-size: cover;
   }
 
 
   .number-slide2 {
-    background: url("../public/aditional/bg1.jpg") no-repeat;
+    background: url("/aditional/bg1.jpg") no-repeat;
     background-size: cover;
   }
 
@@ -30,12 +30,12 @@
   
   
   .number-slide3 {
-    background: url("../public/aditional/bg2.jpg") no-repeat;
+    background: url("/aditional/bg2.jpg") no-repeat;
     background-size: cover;
   }
   
   .number-slide4 {
-    background: url("../public/aditional/bg3.jpg") no-repeat;
+    background: url("/aditional/bg3.jpg") no-repeat;
     background-size: cover;
 }
 .bg-4 {
@@ -49,12 +49,6 @@
   opacity: 0.6;
 }
 
-
-.text-1 h2{
-  text-align: center;
-  font-weight: 300;
-  border-bottom: 1px solid var(--red-clr-1);
-}
 .text-1 h3 {
   font-weight: 300;
 }
@@ -62,10 +56,9 @@
 .text-2 {
   display: block;
   line-height: 0;
-}
-.text-2 h2 {
-  margin-bottom: 1em;
   text-align: right;
+}
+.text-2 h1{
   font-weight: 300;
 }
 

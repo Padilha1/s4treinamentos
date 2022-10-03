@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="keen-slider__slide number-slide1">
               <div className="text-1">
                 {/* mudar !!!!!!!!!!!!!!! colocar nome dos serviços */}
-                <h2><strong>S4 Cursos e Treinamentos</strong></h2>
+                <h1><strong>S4 Cursos e Treinamentos</strong></h1>
                 <h3>Encontre a <strong>segurança</strong> que você precisa no seu negócio.</h3>
               </div>
             </div>
@@ -56,6 +56,7 @@ export default function Hero() {
             </div>
             <div className="keen-slider__slide number-slide3">
               <div>
+                {/* COLOCAR SERVICOS */}
                 <span>Oferecemos Cursos, <br></br>Serviços e <br></br>Consultorias</span>
               </div>
             </div>
@@ -63,8 +64,8 @@ export default function Hero() {
               <div className="bg-4">
                 <img src="../public/aditional/S4 EC.png"/>
                 <div className="text-2">
-                  <h2>Trabalhe com Confiança</h2>
-                  <h2><strong>Invista em Segurança!</strong></h2>
+                  <h1>Trabalhe com Confiança</h1>
+                  <h1><strong>Invista em Segurança!</strong></h1>
                 </div>
               </div>
             </div>

@@ -15,13 +15,13 @@ export function NavBar() {
                     <a href='#Cursos'> Cursos </a> 
                 </li >
                 <li className="li-item">
-                    <a href='#'> Galeria </a> 
+                    <a href='#Galeria'> Galeria </a> 
                 </li >
+                <li>
+                    <a href='#Contato'>Contato</a> 
+                </li>
             </ul>
 
-            <a className='Contato'  href='#Contato'>
-                Contato 
-            </a> 
             
         </header>
     )

@@ -1,6 +1,6 @@
 :root {
     --background-black: #040404;
-    --background-white: #ffcbd1;
+    --background-white: linear-gradient(-45deg, #f5f7fa,#f6f0ea, #fee2f8,#b8c6db);
     --background-red: #812929;
     --background-deep-red: #411515;
 
@@ -16,13 +16,17 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
 
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: var(--font-primary);
-    font-size: 0.3em;
-    background: linear-gradient(-45deg, #f5f7fa,#f6f0ea, #fee2f8,#b8c6db);
+    font-weight: 300;
+    background: var(--background-black);
     text-align: center;
 }

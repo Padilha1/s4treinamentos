@@ -45,7 +45,7 @@ export const Clients = () => {
 )
 
     return (
-        <article className='Clients'>
+        <section className='Clients'>
             <h2> Nossos clientes</h2>
             < div className=' keen-slider' ref={ref2}>
                 <div className="keen-slider__slide slide1">
@@ -67,6 +67,6 @@ export const Clients = () => {
                     <img src="../public/clients/transpetro.png" alt="" />
                 </div>
             </div>
-        </article>
+        </section>
     )
 }
