@@ -1,12 +1,14 @@
 .Galeria {
+    scroll-behavior: smooth;
     height: 500px;
     max-height: 600px;
     background: var(--background-white);
 }
 
 .gal-title {
+    font-size: 2rem;
     margin: 0; 
-    padding: 1rem;
+    padding: 2rem 0 .5rem 0;
 }
 
 

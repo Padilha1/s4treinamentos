@@ -10,7 +10,7 @@
     --red-clr-1: rgb(255,0,0);
     --red-clr-2: #f94449;
     --red-clr-3: #f69697;
-    --secundary-color: rgb(207, 109, 91); 
+    --yellow-clr: rgb(190, 143, 12); 
     --white-color: #f5f7fa;
     --black-color: rgb(34, 34, 34);
 
@@ -18,11 +18,12 @@
 
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 5rem;
 }
 
 body {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: var(--font-primary);

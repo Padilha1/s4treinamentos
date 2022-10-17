@@ -22,13 +22,13 @@ header img{
     color: black;
 }
 
-ul {
+.list {
     display: flex;
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.list li {
     display: inline-block;
     padding: 0 .5em;
 }
@@ -76,8 +76,9 @@ a:hover {
 
 @media screen and (max-width: 390px){
     header img {
-        width: 65%;
+        width: 60%;
         margin: auto;
+        padding-top: 5px;
     }
     ul{
         display: none;

@@ -41,28 +41,31 @@ export default function Hero() {
       )
 
     return (
-        <section ref={sliderRef} className="keen-slider">
-            <div className="keen-slider__slide number-slide1">
-              <div className="text-1">
-                {/* mudar !!!!!!!!!!!!!!! colocar nome dos serviços */}
+        <section ref={sliderRef} className="keen-slider hero">
+            <div className="keen-slider__slide number-slide1 Pawel Czerwinski">
+              <div className="text-1"> 
+              <p className="pre-title"> <strong> Segurança do Trabalho </strong></p>
                 <h1><strong>S4 Cursos e Treinamentos</strong></h1>
                 <h3>Encontre a <strong>segurança</strong> que você precisa no seu negócio.</h3>
               </div>
             </div>
             <div className="keen-slider__slide number-slide2">
               <div className="bg-2">
-                <img src="../public/logos/S4_Marca3.png" className="logo"/>
+                <img src="./logos/S4_Marca3.png" className="logo"/>
               </div>
             </div>
             <div className="keen-slider__slide number-slide3">
-              <div>
                 {/* COLOCAR SERVICOS */}
-                <span>Oferecemos Cursos, <br></br>Serviços e <br></br>Consultorias</span>
-              </div>
+                <div className="neumorphism">
+                  <h1> Consultorias </h1>
+                  <div className="paragraph-div"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor alias provident magnam voluptate sunt quia impedit recusandae! Aut culpa laudantium atque amet cupiditate ducimus quasi est, odio facilis, quas molestiae?</p>
+                  </div>
+                </div>
             </div>
-            <div className="keen-slider__slide number-slide4">
+            <div className="keen-slider__slide number-slide4 Jr-Korpa">
               <div className="bg-4">
-                <img src="../public/aditional/S4 EC.png"/>
+                <img src="/aditional/S4 EC.png"/>
                 <div className="text-2">
                   <h1>Trabalhe com Confiança</h1>
                   <h1><strong>Invista em Segurança!</strong></h1>

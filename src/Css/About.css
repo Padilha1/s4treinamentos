@@ -2,7 +2,7 @@
 .Sobre {
     display: flex;
     justify-content: center;
-    height: 650px;
+    min-height: 650px;
     text-align: left;
     padding: 2em 4em;
     font-weight: 300;
@@ -15,6 +15,7 @@
 .container {
     width: 50%;
     font-size: 1.3rem;
+    animation: fadeIn 2s ease ; 
 }
 .container h2 {
     text-align: center;
@@ -37,12 +38,22 @@
     }
 }
 
+@keyframes fadeIn {
+  0% { 
+      transform: translateX(0); 
+      opacity: 0;
+    }
+  100% { 
+      transform:translateX(10px); 
+      opacity: 1;
+    }
+}
 
-@media screen and (max-width: 390px){
+@media screen and (max-width:390px){
   .Sobre {
     padding: 2em 2em;
     font-size: 1em;
-    height: 1500px;
+    /* height: 1500px; */
   }
   .container {
     width: 100%;
@@ -51,4 +62,21 @@
     margin: auto;
     margin-bottom: 15px;
   }
+}
+
+
+@media (min-width: 768px ) and (max-width:1439px){
+  .Sobre {
+    padding: 2em 2em;
+    font-size: 1em;
+    /* height: 1500px; */
+  }
+  .container {
+    width: 100%;
+  }
+  .container p {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
 }

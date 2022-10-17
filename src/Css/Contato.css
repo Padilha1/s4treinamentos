@@ -3,6 +3,7 @@
     background: black;
     color: white;
     margin-bottom: 5rem;
+    animation: fadeIn 2s ease ; 
 }
 
 .contato-title {
