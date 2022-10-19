@@ -3,6 +3,12 @@ import '../Css/Cursos.css'
 import * as Dialog from '@radix-ui/react-dialog'
 import { Brigada } from './Modais/Brigada'
 import { BrigadaIncendio } from './Cursos/BrigadaIncendio'
+import { CursoSalvamento } from './Cursos/CursoSalvamento'
+import { Salvamento } from './Modais/Salvamento'
+import { CursoNR33 } from './Cursos/CursoNR33'
+import { NR33 } from './Modais/NR33'
+import { NR35 } from './Modais/NR35'
+import { CursoNR35 } from './Cursos/CursoNR35'
 
 export const Cursos = () => {
   return (
@@ -13,35 +19,18 @@ export const Cursos = () => {
                 <BrigadaIncendio/>
                 <Brigada/>
             </Dialog.Root>
-                <Dialog.Root>
-                    <Dialog.Trigger className='Trigger'>
-                        <div className='card'>
-                            <div>
-                                <img src="/servicos/EQuimica-1.jpg" alt="" className='card-image'/>
-                                <h3 className='card-title'><strong>Salvamento em Espaço Confinado</strong></h3>
-                                <div className='teste'>
-                                    hello
-                                </div>
-                            </div>
-                        </div>
-                    </Dialog.Trigger>
-                </Dialog.Root>
-                <Dialog.Root>
-                    <Dialog.Trigger className='Trigger'>
-                        <div className='card'>
-                            <img src="/servicos/Segurança-300x300.png" alt="" className='card-image'/>
-                            <h3 className='card-title'><strong>Capacitação NR 33 </strong></h3>
-                        </div>
-                    </Dialog.Trigger>
-                </Dialog.Root>
-                <Dialog.Root>
-                        <Dialog.Trigger className='Trigger'>
-                            <div className='card'>
-                                <img src="/servicos/Trab-Altura-300x300.jpg" alt="" className='card-image'/>
-                                <h3 className='card-title'><strong>Capacitação NR 35 </strong></h3>
-                            </div>
-                        </Dialog.Trigger>
-                </Dialog.Root>
+            <Dialog.Root>
+                <CursoSalvamento/>
+                <Salvamento/>
+            </Dialog.Root>
+            <Dialog.Root>
+                <CursoNR33/>
+                <NR33/>
+            </Dialog.Root>
+            <Dialog.Root>
+                <CursoNR35/>
+                <NR35/>
+            </Dialog.Root>
         </div>
 
     </section>

@@ -44,7 +44,7 @@
       opacity: 0;
     }
   100% { 
-      transform:translateX(10px); 
+      transform:translateX(1px); 
       opacity: 1;
     }
 }
