@@ -11,8 +11,8 @@ export const About = () => {
 
             <p> No ano de 2006, a sede da S4 Cursos e Treinamentos foi transferida para o município de Ponta Grossa - PR, mantendo o objetivo inicial, porém, com foco no fortalecimento da cultura prevencionista através das prevenções primárias, secundárias e terciárias. Para mantermos nossos objetivos, idealizador e colaboradores buscam aperfeiçoamento constante nas áreas da Saúde e <strong>Segurança do Trabalho</strong>.</p>
 
-            <p>A <strong>S4 Cursos e Treinamentos</strong> está no mercado há 18 anos, trabalhando com seriedade e comprometimento com a saúde e segurança do trabalhador. Prestando serviço de qualidade e sempre atualizados seguindo as Normas Regulamentadoras (NR) que são exigidas conforme Consolidação das Leis do Trabalho (CLT). Trabalhamos com treinamentos e consultoria para aplicação das NR(s).
-            NR 23 Proteção contra incêndios, NR 33 segurança e saúde no trabalho em Espaço Confinado e NR 35 trabalho em altura, sendo dentro das empresas para melhor utilização da prática no dia a dia de cada uma individualmente.</p>
+            <p>A <strong>S4 Cursos e Treinamentos</strong> está no mercado há 24 anos, trabalhando com seriedade e comprometimento com a saúde e segurança do trabalhador. Prestando serviço de qualidade e sempre atualizados seguindo as Normas Regulamentadoras (NR) que são exigidas conforme Consolidação das Leis do Trabalho (CLT). Trabalhamos com treinamentos e consultoria para aplicação das NR(s).
+            <strong>NR 23 Proteção contra incêndios, NR 33 segurança e saúde no trabalho em Espaço Confinado e NR 35 trabalho em altura</strong>, sendo dentro das empresas para melhor utilização da prática no dia a dia de cada uma individualmente.</p>
 
             <p>Desta forma, garantimos informações atualizadas e colaboramos na diminuição, através da prevenção e treinamentos, na morbidade e mortalidade que envolve a “doença Trauma”.</p>
             <div className='bg'></div>

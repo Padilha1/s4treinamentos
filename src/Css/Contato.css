@@ -1,7 +1,7 @@
 .Contato {
-    height: 700px;
-    background: black;
-    color: white;
+    min-height: 80vh;
+    color: var(--white-color);
+    background:var(--background-black);
     margin-bottom: 5rem;
     animation: fadeIn 2s ease ; 
 }
@@ -13,7 +13,9 @@
 }
 .subtitle {
     font-size: 1.5rem;
-    margin-bottom: 5rem;
+    padding: 1rem 2rem 4rem;
+    margin: 0;
+
 }
 
 .Infos {
@@ -177,9 +179,9 @@ color: #F2F3EB;
 
 @media screen and (max-width: 768px) {
 #container {
-    margin: 20px auto;
-    width: 95%;
-}
+        margin: 20px auto;
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -189,6 +191,12 @@ color: #F2F3EB;
 
     input[type="submit"] {
         padding: .3rem .3rem;
+    }
+    .Infos {
+        flex-direction: column;
+    }
+    #contact-form{
+        width: 65%;
     }
 }
 
@@ -220,3 +228,4 @@ color: #F2F3EB;
         width: 80%;
     }
 }
+

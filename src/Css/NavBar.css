@@ -70,7 +70,12 @@ a:hover {
 
 @media screen and (max-width: 450px) {
     header img {
-        width: 6em;
+        width: 50%;
+        margin: auto;
+        padding-top: 5px;
+    }
+    .list{
+        display: none;
     }
 }
 
@@ -80,7 +85,7 @@ a:hover {
         margin: auto;
         padding-top: 5px;
     }
-    ul{
+    .list{
         display: none;
     }
 }
