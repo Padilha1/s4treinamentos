@@ -13,7 +13,7 @@
 
 
 .container {
-    width: 50%;
+    width: 70%;
     font-size: 1.3rem;
     animation: fadeIn 2s ease ; 
 }
@@ -69,7 +69,7 @@
     padding: 2em 2em;
   }
   .container {
-    width: 100%;
+    width: 70%;
   }
   .container p {
     margin: auto;

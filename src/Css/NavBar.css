@@ -1,91 +1,88 @@
-@import url('../index.css');
+@import url("../index.css");
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: var(--background-white);
-    padding: 10px 10px;
-    font-family: var(--font-primary);
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    z-index: 2;
-    height: 5rem;
-    top: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background: var(--background-white);
+	padding: 10px 10px;
+	font-family: var(--font-primary);
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	z-index: 2;
+	height: 5rem;
+	top: 0;
 }
 
-header img{
-    width: 12rem;
-    margin-right: auto;
-    margin-left: 2rem;
-    cursor: pointer;
-    color: black;
+header img {
+	width: 12rem;
+	margin-right: auto;
+	margin-left: 2rem;
+	cursor: pointer;
+	color: black;
+}
+.logoRef {
+	margin-right: auto;
 }
 
 .list {
-    display: flex;
-    list-style: none;
-    padding: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;
 }
 
 .list li {
-    display: inline-block;
-    padding: 0 .5em;
+	display: inline-block;
+	padding: 0 0.5em;
 }
 
-
-
-header a {
-    text-decoration: none;
-    color: var(--red-clr-1);
-    border: none;
-    cursor: pointer;
-    margin-left: 1.5em;
-    font-size: 1.2rem;
-    font-weight: 500;
-    background:
-    linear-gradient(
-      to right,
-      rgb(200, 185, 100),
-      rgba(200, 185, 100, 1)
-    ),
-    linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgb(200, 107, 0),
-      rgb(190, 143, 12)
-  );
-  background-size: 100% 3px, 0 1px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+header li a {
+	text-decoration: none;
+	color: var(--red-clr-1);
+	border: none;
+	cursor: pointer;
+	margin-left: 1.5em;
+	font-size: 1.2rem;
+	font-weight: 500;
+	background: linear-gradient(
+			to right,
+			rgb(200, 185, 100),
+			rgba(200, 185, 100, 1)
+		),
+		linear-gradient(
+			to right,
+			rgba(255, 0, 0, 1),
+			rgb(200, 107, 0),
+			rgb(190, 143, 12)
+		);
+	background-size: 100% 3px, 0 1px;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 400ms;
 }
 
 a:hover {
-    background-size: 0 1px, 100% 3px;
+	background-size: 0 1px, 100% 3px;
 }
-
-
-
 
 @media screen and (max-width: 450px) {
-    header img {
-        width: 50%;
-        margin: auto;
-        padding-top: 5px;
-    }
-    .list{
-        display: none;
-    }
+	header img {
+		width: 50%;
+		margin: auto;
+		padding-top: 5px;
+	}
+	.list {
+		display: none;
+	}
 }
 
-@media screen and (max-width: 390px){
-    header img {
-        width: 60%;
-        margin: auto;
-        padding-top: 5px;
-    }
-    .list{
-        display: none;
-    }
+@media screen and (max-width: 390px) {
+	header img {
+		width: 60%;
+		margin: auto;
+		padding-top: 5px;
+	}
+	.list {
+		display: none;
+	}
 }

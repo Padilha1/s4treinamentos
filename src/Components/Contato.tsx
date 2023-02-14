@@ -40,15 +40,13 @@ export const Contato = () => {
           <div className="contact-info">
             <FontAwesomeIcon icon={faPhone} />
             <div className="span-box">
-              <span> (42) 9 9154-2399 - Jorge </span> <br></br>
-              <span> (42) 9 9957-4149 - Patrícia </span>
+              <span> (42) 9 9154-2399 - Jorge </span> 
             </div>
           </div>
           <div className="contact-info">
             <FontAwesomeIcon icon={faEnvelope} />
             <div className="span-box">
-              <span> jorge@s4cursosetreinamentos.com.br </span> <br></br>
-              <span> patricia@s4cursosetreinamentos.com.br </span>
+              <span> jorge@s4cursosetreinamentos.com.br </span> 
             </div>
           </div>
         </div>

@@ -57,9 +57,14 @@ export default function Hero() {
             <div className="keen-slider__slide number-slide3">
                 {/* COLOCAR SERVICOS */}
                 <div className="neumorphism">
-                  <h1> Consultorias </h1>
+                  <h2> Consultorias </h2>
                   <div className="paragraph-div"> 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor alias provident magnam voluptate sunt quia impedit recusandae! Aut culpa laudantium atque amet cupiditate ducimus quasi est, odio facilis, quas molestiae?</p>
+                    <p>
+                      Oferecemos consultorias para gerenciamento de riscos para espaços confinados, capacitação para supervisores, vigias, trabalhadores e equipes de resgate. Bem como planos de resgate conforme prevê texto da NR33 - <strong>Segurança e Saúde no Trabalho em Espaço Confinado</strong> (33.5.20 Preparação para Emergências). 
+                    </p>
+                    <span> 
+                      Publicado na Portaria MTP Nº1650 de 15 de Junho de 2022 - DOU 24/06/2022, edição 118 seção 1, pg.94.
+                    </span>
                   </div>
                 </div>
             </div>
@@ -67,8 +72,8 @@ export default function Hero() {
               <div className="bg-4">
                 <img src="/aditional/S4 EC.png"/>
                 <div className="text-2">
-                  <h1>Trabalhe com Confiança</h1>
-                  <h1><strong>Invista em Segurança!</strong></h1>
+                  <h2>Trabalhe com Confiança</h2>
+                  <h2><strong>Invista em Segurança!</strong></h2>
                 </div>
               </div>
             </div>

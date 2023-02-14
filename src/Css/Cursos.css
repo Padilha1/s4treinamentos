@@ -11,8 +11,7 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    margin-left: 7rem;
+    place-items: center;
     padding-block: 1rem;
 }
 
@@ -35,6 +34,7 @@
     border-radius: 10px;
     overflow: hidden;
     background: transparent;
+    border: none;
 }
 
 .card-image {
@@ -75,7 +75,6 @@
     width: 40%;
     height:60%;
 }
-
 .Overlay{
     position: fixed;
     z-index: 2;
@@ -125,7 +124,6 @@
 
 @media screen and (min-width:325px ) and (max-width:450px){
     .grid {
-        margin-left: 4rem;
         grid-template-columns: 1fr;
         
     } 
@@ -144,7 +142,6 @@
         font-size: 1rem;
     }
     .Trigger{
-        border: none;
         width: 18.5em;
         height: 18.5em;
         margin-bottom: 1em;
@@ -174,9 +171,7 @@
 
 @media screen and (min-width:451px) and (max-width:768px ){
     .grid {
-        margin-left: 5rem;
         grid-template-columns: 1fr 1fr;
-        
     } 
     .card {
         width: 15rem;
@@ -185,9 +180,6 @@
     }
     .Cursos h2 {
         font-size: 1.5em;
-    }
-    .Trigger{
-        border: none;
     }
     .btn-close{
         top: 11%;
@@ -203,7 +195,6 @@
 
 @media screen and (min-width:769px) and (max-width:1024px){
     .grid {
-        margin-left: 10rem;
         grid-template-columns: 1fr 1fr;
     }
     .card {
@@ -213,9 +204,6 @@
     }
     .Cursos h2 {
         font-size: 1.5em;
-    }
-    .Trigger{
-        border: none;
     }
     .btn-close{
         top: 11%;
@@ -230,12 +218,7 @@
 }
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
-    .grid {
-        margin-left:2rem;
-    }
-    .Trigger{
-        border: none;
-    }
+   
     .btn-close{
         top: 11.5%;
         right: 25%;
