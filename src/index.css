@@ -31,3 +31,7 @@ body {
     background: var(--background-black);
     text-align: center;
 }
+
+::-webkit-scrollbar {
+    display:none;
+}
